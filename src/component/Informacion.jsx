@@ -1,7 +1,8 @@
-const Informacion = () => {
+const Informacion = (props) => {
   return (
     <section>
       <h2>Conceptos basicos de bootstrap</h2>
+      <h3>{props.tituloSecundariogit}</h3>
       <p>
         React (también llamada React.js o ReactJS) es una librería Javascript de
         código abierto diseñada para crear interfaces de usuario con el objetivo
