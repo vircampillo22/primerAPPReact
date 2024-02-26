@@ -8,7 +8,7 @@ const[numero, setNumero]=useState(10);
         <article className="text-center mt-4">
             <h3>Contador</h3>
             <p className="fw-bold">{numero}</p>
-            <button className="btn btn-primary"onClick={()=>setNumero(numero+1g) }>+1</button>
+            <button className="btn btn-primary"onClick={()=>setNumero(numero+1)}>+1</button>
         </article>
         
 
